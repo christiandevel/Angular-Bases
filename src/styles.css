@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.col {
+	flex-grow: 1;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+input {
+	display: block;
+	margin: 5px;
+}
